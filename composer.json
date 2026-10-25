@@ -1,0 +1,66 @@
+{
+    "name": "blackcube/assets",
+    "description": "Vite and Webpack asset bundles for Yii with scaffolding command",
+    "keywords": [
+        "yii",
+        "assets",
+        "vite",
+        "webpack",
+        "manifest"
+    ],
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "homepage": "https://github.com/blackcubeio/assets",
+    "support": {
+        "issues": "https://github.com/blackcubeio/assets/issues",
+        "source": "https://github.com/blackcubeio/assets"
+    },
+    "authors": [
+        {
+            "name": "Philippe Gaultier",
+            "email": "philippe@blackcube.io"
+        }
+    ],
+    "readme": "README.md",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^8.2",
+        "ext-json": "*",
+        "yiisoft/aliases": "^3.1",
+        "yiisoft/assets": "^5.1",
+        "yiisoft/view": "^12.2",
+        "yiisoft/yii-console": "^2.4"
+    },
+    "require-dev": {
+        "codeception/codeception": "^5.3",
+        "codeception/module-asserts": "^3.3",
+        "phpcompatibility/php-compatibility": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Blackcube\\Assets\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Blackcube\\Assets\\Tests\\": "tests",
+            "Blackcube\\Assets\\Tests\\Support\\": "tests/Support"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-devel": "1.x-dev"
+        },
+        "config-plugin-file": "config/configuration.php"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "yiisoft/config": true
+        },
+        "platform": {
+            "php": "8.2"
+        }
+    }
+}

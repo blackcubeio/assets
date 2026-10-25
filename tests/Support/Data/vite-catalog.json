@@ -1,0 +1,9 @@
+{
+  "app": {
+    "js": "js/app.abc123.js",
+    "css": "css/app.def456.css"
+  },
+  "vendor": {
+    "js": "js/vendor.xyz789.js"
+  }
+}
